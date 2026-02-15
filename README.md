@@ -1,23 +1,32 @@
 # Compilateur-JAVA-ANTLR4
-Conception d’un mini-compilateur pour le language des Rationnel
 
-•	Implémentation de :
+Conception d’un **mini-compilateur** en **Java** avec **ANTLR4** pour un langage manipulant les **nombres rationnels**.
 
-o	Analyse lexicale, syntaxique et sémantique
-o	Génération de code intermédiaire optimisé
+## Objectifs
+- Construire un compilateur complet (front-end + génération de code)
+- Comprendre en profondeur les mécanismes internes des langages (parsing, sémantique, compilation)
+- Produire un code intermédiaire **optimisé**
 
-•	Compréhension approfondie des mécanismes internes des langages
+## Fonctionnalités principales
 
-• implémentation des fonctions :
+### Analyse du langage
+- **Analyse lexicale** (tokenisation)
+- **Analyse syntaxique** (parsing / grammaire)
+- **Analyse sémantique** (vérifications, typage, cohérence)
+- **Génération de code intermédiaire optimisé**
 
-     - pgcd , ppcm
-     
-     - sim : qui simplifie un Rationnel 
-     
-     - proche : qui donne la valeur entiére d'un Rationnel 
+### Fonctions rationnelles implémentées
+- `pgcd` : plus grand commun diviseur  
+- `ppcm` : plus petit commun multiple  
+- `sim` : simplification d’un rationnel  
+- `proche` : valeur entière la plus proche d’un rationnel  
 
-• implémentation de la gestion des Variables avec la table des Symboles 
+### Gestion du langage
+- Gestion des **variables** via une **table des symboles**
+- Support des **blocs**
+- **Structures conditionnelles**
+- **Boucles**
+- Gestion des **fonctions**
+- Support des **structures** (selon la spécification du langage)
 
-• implémentation des bloc , structures Conditionnelles , et les Boucles
-
-• implémentation des Fonctions et les Structures
+---
